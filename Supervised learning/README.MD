@@ -52,14 +52,7 @@ To implement the code, follow these steps:
 
 4. Run the Python scripts provided in the repository for parameter selection and evaluation.
 
-## Usage
-
-The main Python scripts are as follows:
-
-- `parameter_selection.py`: This script performs parameter selection through cross-validation for SVM, BP, and MLR.
-  
-- `evaluation.py`: This script evaluates the classification results, computes classification errors, confusion matrices, ROC curves, and AUC for the three datasets.
-  
+ 
 ## Example Usage
 
 ```bash
