@@ -34,7 +34,7 @@ To implement the code, follow these steps:
 1. Clone this repository:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/4Pranjal/Machine_Learning_Project.git
    ```
 
 2. Install the required libraries:
@@ -46,7 +46,7 @@ To implement the code, follow these steps:
 3. Navigate to the directory:
 
    ```bash
-   cd <repository_directory>
+   cd Prediction with BackPropagation and Linear Regression
    ```
 
 4. Run the Python scripts provided in the repository for data preprocessing, visualization, and predictive modeling.
