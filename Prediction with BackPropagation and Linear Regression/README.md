@@ -53,17 +53,7 @@ To implement the code, follow these steps:
 
 ## Usage
 
-The main Python scripts are as follows:
-
-- `data_preprocessing.py`: This script performs data preprocessing tasks such as cleaning, scaling, and splitting the dataset into training and testing sets.
   
-- `visualization.py`: This script generates visualizations of the dataset to gain insights and understand the data distribution.
-  
-- `neural_network_backpropagation.py`: Implements a neural network with back-propagation for prediction.
-  
-- `neural_network_backpropagation_free.py`: Implements a neural network with back-propagation using free software for prediction.
-  
-- `multiple_linear_regression_free.py`: Implements multiple linear regression using free software for prediction.
 
 ## Example Usage
 
