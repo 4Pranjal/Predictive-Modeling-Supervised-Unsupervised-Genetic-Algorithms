@@ -1,4 +1,4 @@
-## Predictive Modeling, Supervised, Unsupervised & Genetic Algorithms: AI/ML Project
+## Predictive Modelling, Supervised, Unsupervised & Genetic Algorithms: AI/ML Project
 
 ## Overview
 
