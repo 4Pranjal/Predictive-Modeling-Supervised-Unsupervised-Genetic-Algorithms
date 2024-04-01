@@ -12,15 +12,6 @@ The objective of this project is to:
 2. Compare the performance of PCA, t-SNE, k-means, AHC, and SOM in visualizing and clustering the data.
 3. Provide explanations of the implementation decisions and analysis in the report.
 
-## Deliverables
-
-The deliverables for this project include:
-
-- A PDF document containing:
-  - A link to the Github repository.
-  - Explanations of the implementation decisions and analysis.
-  - The name of the file should follow the format: A3-Name1Surname1-Name2Surname2.pdf
-
 ## Part 1: Selecting and Analyzing Datasets
 
 The unsupervised learning techniques are applied to two datasets:
