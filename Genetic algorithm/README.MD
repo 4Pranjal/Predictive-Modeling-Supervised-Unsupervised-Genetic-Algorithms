@@ -60,6 +60,33 @@ To implement the code, follow these steps:
 
 4. Run the Python scripts provided in the repository for solving the TSP using genetic algorithms.
 
+## Results of Genetic Algorithm Details for TSP
+
+| Problem      | Chromosome Representation | Selection Techniques        | Crossover Techniques             | Mutation Techniques            | Population Size | Stationary State Detection       |
+|--------------|---------------------------|-----------------------------|----------------------------------|---------------------------------|-----------------|----------------------------------|
+| 5.tsp        | Permutation of cities      | Tournament Selection, Random Selection | Order Crossover (OX), PMX Crossover | Swap Mutation, Inversion Mutation | 100             | Stationary count threshold = 50 generations |
+| 10.tsp       | Permutation of cities      | Tournament Selection, Random Selection | Order Crossover (OX), PMX Crossover | Swap Mutation, Inversion Mutation | 150             | Stationary count threshold = 75 generations |
+| fri26        | Permutation of cities      | Tournament Selection, Random Selection | Order Crossover (OX), PMX Crossover | Swap Mutation, Inversion Mutation | 200             | Stationary count threshold = 100 generations |
+| 17.tsp       | Permutation of cities      | Tournament Selection, Random Selection | Order Crossover (OX), PMX Crossover | Swap Mutation, Inversion Mutation | 120             | Stationary count threshold = 60 generations  |
+| 26.tsp       | Permutation of cities      | Tournament Selection, Random Selection | Order Crossover (OX), PMX Crossover | Swap Mutation, Inversion Mutation | 180             | Stationary count threshold = 90 generations  |
+
+## Conclusion
+
+The analysis of the datasets (5.tsp, 10.tsp, fri26, 17.tsp, and 26.tsp) reveals consistent use of genetic algorithm principles, specifically in chromosome representation, selection, crossover, and mutation techniques. Each dataset employs a permutation of cities as the chromosome representation, effectively capturing the Traveling Salesman Problem (TSP) structure.
+
+1. **Selection Techniques**: Both Tournament Selection and Random Selection are utilized across all datasets, allowing for effective candidate solution selection based on fitness.
+
+2. **Crossover Techniques**: The Order Crossover (OX) and Partially Mapped Crossover (PMX) techniques are applied consistently, ensuring that the offspring generated retain valid city permutations.
+
+3. **Mutation Techniques**: Swap Mutation and Inversion Mutation are employed to maintain genetic diversity, preventing premature convergence.
+
+4. **Population Size**: Adjustments to the population size are made for each dataset, ranging from 100 to 200 individuals. Increasing the population size allows for a broader exploration of the solution space, potentially leading to better solutions.
+
+5. **Stationary State Detection**: The approach to detecting stationary states varies, with thresholds set between 50 to 100 generations. This flexibility in detection periods allows the algorithm to adapt to different datasets, ensuring that it does not terminate prematurely before significant progress is achieved.
+
+In summary, the methodologies employed across these datasets illustrate the versatility of genetic algorithms in solving complex optimization problems like TSP. The consistent strategies and thoughtful adjustments made for each dataset indicate a robust framework aimed at optimizing the solution process while accommodating the unique characteristics of each problem.
+
+
 ## Contributors
 
 - [Pranjal Jain](https://github.com/4Pranjal)
