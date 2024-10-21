@@ -62,7 +62,7 @@ To implement the code, follow these steps:
 3. Navigate to the directory:
 
    ```bash
-   cd <repository_directory>
+   cd https://github.com/4Pranjal/Predictive-Modeling-Supervised-Unsupervised-Genetic-Algorithms.git
    ```
 
 4. Run the Python scripts provided in the repository for applying unsupervised learning techniques and comparing results.
