@@ -77,7 +77,37 @@ To implement the code, follow these steps:
 
 4. Run the Python scripts provided in the repository for parameter selection and evaluation.
 
- 
+ ## MLR (Multiple Linear Regression)
+
+| **Dataset**               | **Accuracy**    | **AUC**         | **Confusion Matrix**               | **Classification Error** |
+|---------------------------|-----------------|-----------------|-----------------------------------|--------------------------|
+| **Separable Ring Dataset** | 0.4665          | 0.443862987630827| [[933, 118], [949, 0]]             | 0.4665                   |
+| **Merged Ring Dataset**    | 0.5585          | 0.5             | [[1117, 0], [883, 0]]              | 0.4415                   |
+| **Bank Marketing Dataset** | 0.912621359     | 0.650403226     | [[726, 18], [54, 26]]              | -                        |
+| **Boston**                | 0.862745098     | 0.949220311     | [[50, 11], [3, 38]]                | 0.1372549019607842        |
+
+---
+
+## SVM (Support Vector Machine)
+
+| **Dataset**               | **Accuracy**    | **AUC**         | **Confusion Matrix**               | **Classification Error** |
+|---------------------------|-----------------|-----------------|-----------------------------------|--------------------------|
+| **Separable Ring Dataset** | 0.9764          | 0.977726444     | [[5108, 225], [11, 4656]]          | 0.0236                   |
+| **Merged Ring Dataset**    | 0.9608          | -               | [[4999, 334], [74, 4593]]          | 0.0395                   |
+| **Bank Marketing Dataset** | 0.901699029     | 0.89875672      | [[726, 18], [63, 17]]              | 0.098300971               |
+| **Boston**                | 0.81372549      | 0.891566265     | [[83, 0], [19, 0]]                 | 0.18627451                |
+
+---
+
+## BP (Backpropagation)
+
+| **Dataset**               | **Accuracy**    | **AUC**         | **Confusion Matrix**               | **Classification Error** |
+|---------------------------|-----------------|-----------------|-----------------------------------|--------------------------|
+| **Separable Ring Dataset** | 0.9315          | -               | [[975, 76], [61, 888]]             | 0.0375                   |
+| **Merged Ring Dataset**    | 0.7600          | 0.759634639     | [[852, 265], [215, 668]]           | 0.2415                   |
+| **Bank Marketing Dataset** | 0.905339777     | 0.67983871      | [[714, 30], [48, 32]]              | 0.201456308               |
+| **Boston**                | 0.901960784     | 0.818783069     | [[83, 1], [9, 9]]                  | 0.098039216               |
+
 ## Example Usage
 
 ```bash
