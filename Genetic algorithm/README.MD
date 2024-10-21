@@ -61,6 +61,8 @@ To implement the code, follow these steps:
 4. Run the Python scripts provided in the repository for solving the TSP using genetic algorithms.
 
 ## Results of Genetic Algorithm Details for TSP
+![Picture4](https://github.com/user-attachments/assets/c4a837b5-fa9b-4b71-9fbe-cbf22a31eb07)
+
 
 | Problem      | Chromosome Representation | Selection Techniques        | Crossover Techniques             | Mutation Techniques            | Population Size | Stationary State Detection       |
 |--------------|---------------------------|-----------------------------|----------------------------------|---------------------------------|-----------------|----------------------------------|
