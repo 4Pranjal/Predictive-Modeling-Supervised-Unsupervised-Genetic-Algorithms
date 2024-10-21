@@ -28,6 +28,29 @@ The following datasets are used for training and evaluation:
 - Python libraries for BP: TensorFlow, Keras
 - Python libraries for MLR: scikit-learn
 
+## Folder Structure for Supervised Learning
+
+Predictive-Modeling-Supervised-Unsupervised-Genetic-Algorithms/
+│
+├── Supervised_learning/
+│   ├── dataset/                             # Contains datasets for training models
+│   │   └── boston_housing.csv               # Boston Housing dataset
+│   │   └── Turbine_Data.csv                 # Turbine dataset
+│   ├── figures/                             # Visualization of results
+│   │   └── loss_acc.png                     # Loss and accuracy plot
+│   │   └── performance_comparison.png       # Performance comparison between models
+│   ├── model/                               # Trained model files and related scripts
+│   │   └── bp_model.py                      # Backpropagation model script
+│   │   └── linear_regression.py             # Linear regression model script
+│   ├── results/                             # Folder to store results, reports, and metrics
+│   │   └── BP_results.txt                   # Backpropagation model performance results
+│   │   └── MLR_results.txt                  # Multiple linear regression performance results
+│   ├── supervised_learning_notebook.ipynb   # Jupyter notebook for analysis and modeling
+│   ├── requirements.txt                     # File listing project dependencies
+│   ├── README.md                            # Overview and instructions for the project
+│   ├── LICENSE                              # License information for the project
+
+
 ## Instructions
 
 To implement the code, follow these steps:
