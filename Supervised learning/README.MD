@@ -29,8 +29,9 @@ The following datasets are used for training and evaluation:
 - Python libraries for MLR: scikit-learn
 
 ## Folder Structure for Supervised Learning
-
 Predictive-Modeling-Supervised-Unsupervised-Genetic-Algorithms/
+
+```bash 
 │
 ├── Supervised_learning/
 │   ├── dataset/                             # Contains datasets for training models
@@ -50,6 +51,7 @@ Predictive-Modeling-Supervised-Unsupervised-Genetic-Algorithms/
 │   ├── README.md                            # Overview and instructions for the project
 │   ├── LICENSE                              # License information for the project
 
+```
 
 ## Instructions
 
