@@ -76,7 +76,7 @@ To implement the code, follow these steps:
 1. Clone this repository:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/4Pranjal/Predictive-Modeling-Supervised-Unsupervised-Genetic-Algorithms.git
    ```
 
 2. Install the required libraries:
@@ -88,7 +88,7 @@ To implement the code, follow these steps:
 3. Navigate to the directory:
 
    ```bash
-   cd https://github.com/4Pranjal/Predictive-Modeling-Supervised-Unsupervised-Genetic-Algorithms.git
+   cd Predictive-Modeling-Supervised-Unsupervised-Genetic-Algorithms
    ```
 
 4. Run the Python scripts provided in the repository for applying unsupervised learning techniques and comparing results.
