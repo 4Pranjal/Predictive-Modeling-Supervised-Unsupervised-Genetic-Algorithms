@@ -108,17 +108,54 @@ To implement the code, follow these steps:
 | **Bank Marketing Dataset** | 0.905339777     | 0.67983871      | [[714, 30], [48, 32]]              | 0.201456308               |
 | **Boston**                | 0.901960784     | 0.818783069     | [[83, 1], [9, 9]]                  | 0.098039216               |
 
-## Example Usage
+ ## Discussion
 
-```bash
-python parameter_selection.py
-python evaluation.py
-```
+- **MLR Model Performance**:  
+  The performance of the MLR model varies significantly across different datasets, indicating that the characteristics of the data play a crucial role in model performance.
+  - **Separable Ring Dataset**: MLR struggles with accuracy and discriminatory power, resulting in poor model performance.
+  - **Merged Ring Dataset**: While the accuracy improves, the AUC of 0.5 reflects that the model lacks discriminatory power.
+  - **Bank Marketing Dataset**: The MLR model performs well here, achieving high accuracy and a reasonable AUC, indicating good predictive capabilities.
+  
+- **SVM Model Performance**:  
+  - Achieves high accuracy and AUC on the **Separable Ring Dataset** but shows poor performance on the **Merged Ring Dataset**.
+  - On the **Bank Marketing Dataset**, the model demonstrates good accuracy and AUC values.
+
+- **BP Model Performance**:  
+  - Performs well on the **Separable Ring Dataset**, but struggles with the **Merged Ring Dataset**.
+  - On the **Bank Marketing Dataset**, the model achieves good accuracy and AUC.
+  - For the **Boston Dataset**, BP has high accuracy but a lower AUC, suggesting a gap between model accuracy and its ability to discriminate between classes.
+
+---
+
+### Key Metric Comparisons:
+
+- **Accuracy**:
+  - MLR: Highest accuracy at **0.9126**, indicating the best overall correctness in predictions.
+  - BP: **0.9053**.
+  - SVM: **0.9017**.
+
+- **AUC (Area Under the ROC Curve)**:
+  - **SVM**: Highest AUC at **0.8988**, indicating better discrimination ability.
+  - **MLR**: AUC of **0.6504**.
+  - **BP**: AUC of **0.6798**.
+
+- **Confusion Matrix**:
+  - MLR and SVM show similar confusion matrices but differ in the number of false positives (FP) and false negatives (FN).
+  - BP shows a different distribution of TP (True Positives), TN (True Negatives), FP, and FN compared to MLR and SVM.
+
+- **Classification Error**:
+  - **MLR**: Lowest classification error at **0.0874**, suggesting fewer misclassifications.
+  - **BP**: Classification error of **0.0947**.
+  - **SVM**: Classification error of **0.0983**.
+
+- **Precision, Recall, Specificity, F1 Score**:
+  - These metrics can be calculated using the confusion matrix values to provide deeper insights into the model’s performance, especially regarding false positives and false negatives.
+
+---
+
+In conclusion, each model performs differently based on the dataset, with MLR achieving the highest accuracy overall, while SVM demonstrates superior discriminatory power based on AUC.
 
 ## Contributors
 
 - [Pranjal Jain](https://github.com/4Pranjal)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
