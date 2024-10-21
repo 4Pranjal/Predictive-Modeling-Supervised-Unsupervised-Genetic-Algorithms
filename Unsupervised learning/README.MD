@@ -43,6 +43,32 @@ For each algorithm:
 - AHC: Use UPGMA and complete linkage methods of AHC and plot resulting dendrograms.
 - SOM: Visualize the data using SOM with different settings and plot component planes.
 
+## Folder Structure for Unsupervised Learning
+
+```bash
+Predictive-Modeling-Supervised-Unsupervised-Genetic-Algorithms/
+│
+├── Unsupervised_learning/
+│   ├── dataset/                           # Contains datasets used for unsupervised learning
+│   │   └── bank_data.csv                  # Bank dataset for clustering
+│   │   └── boston_housing.csv             # Boston Housing dataset for clustering
+│   ├── model/                             # Trained model files and related scripts
+│   │   └── kmeans.py                      # K-Means clustering implementation
+│   │   └── hierarchical_clustering.py     # Hierarchical clustering implementation
+│   │   └── pca.py                         # Principal Component Analysis (PCA) script
+│   ├── results/                           # Folder to store results, reports, and metrics
+│   │   └── kmeans_results.txt             # Results of K-Means clustering
+│   │   └── hierarchical_results.txt       # Results of Hierarchical clustering
+│   ├── figures/                           # Visualizations of clustering results
+│   │   └── kmeans_clusters.png            # Visualization of K-Means clusters
+│   │   └── hierarchical_dendrogram.png    # Dendrogram for Hierarchical clustering
+│   ├── unsupervised_learning_notebook.ipynb # Jupyter notebook for analysis and clustering
+│   ├── requirements.txt                   # Project dependencies for unsupervised learning
+│   ├── README.md                          # Overview and instructions for the unsupervised learning part of the project
+│   ├── LICENSE                            # License information for the project
+
+``` 
+
 ## Instructions
 
 To implement the code, follow these steps:
