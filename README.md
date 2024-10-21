@@ -10,11 +10,39 @@ This repository contains Python code for various machine learning projects. Each
    - **Objective:** Perform predictive modeling using neural networks and multiple linear regression.
    - **Libraries Used:** numpy, pandas, scikit-learn, matplotlib
    - **Instructions:** Follow the provided README for implementation details.
+## Project Folder Structure
+
+The following structure represents the organization of the project files:
+```bash
+├── Prediction_with_BackPropagation_and_Linear_Regression/
+│   ├── data/
+│   │   └── raw/                       # Raw datasets used for modeling
+│   │   └── processed/                 # Cleaned and preprocessed datasets
+│   ├── models/                        # Trained model files (e.g., weights or serialized models)
+│   │   └── backpropagation_model.pkl
+│   │   └── linear_regression_model.pkl
+│   ├── notebooks/                     # Jupyter notebooks for exploratory analysis and training
+│   │   └── backpropagation_analysis.ipynb
+│   │   └── linear_regression_analysis.ipynb
+│   ├── scripts/                       # Python scripts for preprocessing, training, and testing
+│   │   └── preprocess_data.py
+│   │   └── train_backpropagation.py
+│   │   └── train_linear_regression.py
+│   ├── results/                       # Results from the experiments (e.g., plots, reports, performance metrics)
+│   │   └── model_performance.txt
+│   │   └── loss_accuracy_plot.png
+│   ├── requirements.txt               # Python dependencies
+│   ├── README.md                      # Project overview and instructions
+│   ├── LICENSE                        # License for the project
+```
+
+![44](https://github.com/user-attachments/assets/16e7196c-08bc-423c-96e9-0c7424710a94)
 
 2. **Supervised Learning with Classification**
    - **Objective:** Perform data classification using SVM, BP, and MLR.
    - **Libraries Used:** numpy, pandas, scikit-learn, matplotlib
    - **Instructions:** Follow the provided README for implementation details.
+![R2](https://github.com/user-attachments/assets/b0006652-a641-4fe7-ae78-af34a604be1c)
 
 3. **Unsupervised Learning Comparison**
    - **Objective:** Compare unsupervised learning techniques including PCA, t-SNE, k-means, AHC, and SOM.
@@ -25,6 +53,7 @@ This repository contains Python code for various machine learning projects. Each
    - **Objective:** Solve the Traveling Salesman Problem using genetic algorithms.
    - **Libraries Used:** tsplib95
    - **Instructions:** Follow the provided README for implementation details.
+![Picture4](https://github.com/user-attachments/assets/c4a837b5-fa9b-4b71-9fbe-cbf22a31eb07)
 
 ## Getting Started
 
