@@ -97,9 +97,9 @@ To implement the code, follow these steps:
 
 The main Python scripts are as follows:
 
-- `apply_unsupervised_learning.py`: This script applies unsupervised learning techniques to the datasets and compares the results.
+- `A3_Boston_dataset.ipynb`: This script applies unsupervised learning techniques to the datasets and compares the results.
   
-- `visualize_results.py`: This script visualizes the results obtained from different unsupervised learning techniques.
+- `A3_Implementation.ipynb`: This script visualizes the results obtained from different unsupervised learning techniques.
   
  
 ## License
