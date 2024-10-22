@@ -221,10 +221,12 @@ The main Python scripts are as follows:
 ![Picture4](https://github.com/user-attachments/assets/c4a837b5-fa9b-4b71-9fbe-cbf22a31eb07)
 
 
-## Contributors
+## 🙏 Contributors
 
-- [Pranjal Jain](https://github.com/4Pranjal)
+This repository is maintained by 4Pranjal. Feel free to use and modify the code for educational and research purposes.
 
-## License
+For any questions or suggestions, you can contact me through my GitHub profile: [@4Pranjal](https://github.com/4Pranjal).
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Made with ❤️ by [Pranjal Jain](https://github.com/4Pranjal)
+
+
